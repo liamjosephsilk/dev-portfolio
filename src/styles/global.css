@@ -10,6 +10,10 @@
   .header {
     transition: transform 200ms 300ms ease-in-out;
   }
+
+  p {
+    @apply font-inter text-base;
+  }
 }
 
 .header[data-state="show"] {
